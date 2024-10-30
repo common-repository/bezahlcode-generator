@@ -1,0 +1,87 @@
+/*
+	BezahlCode-Widget
+*/
+
+#BezahlCodeWidget{
+	-moz-border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow: 0 1px 1px #AAAAAA;
+    background: -moz-linear-gradient(center bottom , #F2F2F2 0px, #FFFFFF 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #CCCCCC !important;
+    height: 100%;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    padding: 0 0 10px;
+}
+
+#BezahlCodeWidget h3
+{
+	-moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    background: url("bg.png") repeat-x scroll left bottom #555555;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#BezahlCodeWidget .BezahlCodeForm{
+	line-height:28px;
+	padding: 0 10px;
+}
+
+#BezahlCodeWidget .BezahlCodeForm input[type='text']{
+	-moz-border-radius: 4px 4px 4px 4px;
+    background-color: #F7F7F7;
+    border-color: #CCCCCC #DDDDDD #DDDDDD #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 3px !important;
+    padding: 4px;
+    width: 94%;
+}
+
+#BezahlCodeWidget #bezahlcodeimage
+{
+	text-align:center; padding:10px;
+}
+
+#BezahlCodeWidget #bezahlcodeimage input{
+	-moz-border-radius: 4px 4px 4px 4px;
+    background-color: #F7F7F7;
+    border-color: #CCCCCC #DDDDDD #DDDDDD #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px;
+    width: 94%;
+}
+
+#BezahlCodeWidget #bezahlcodeimage img{
+	width:180px;
+}
+
+#BezahlCodeWidget .bezahlCodeLink{
+	text-align: center;
+	padding: 0 10px;
+	display:block;
+}
+
+#BezahlCodeWidget input.error {
+    border-color: #FF0000 #FF0000 #FF0000 #FF0000 !important;
+    color: #FF0000;
+}
+
+#DHTMLgoodies_formTooltipDiv{
+	line-height:120%;
+	-moz-border-radius: 4px 4px 4px 4px;
+    background-color: #F7F7F7;
+    border-color: #CCCCCC #DDDDDD #DDDDDD #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px;
+}
+.DHTMLgoodies_formTooltip_closeMessage{
+	font-weight:normal;
+}
